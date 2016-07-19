@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item1</key>
+	<dict>
+		<key>name</key>
+		<string>Bánh Trưng</string>
+		<key>photo</key>
+		<string>banhtrung</string>
+		<key>info</key>
+		<string>Bánh chưng là một loại bánh truyền thống của dân tộc Việt nhằm thể hiện lòng biết ơn của con cháu đối với cha ông và đất trời xứ sở. Nguyên liệu làm bánh chưng gồm gạo nếp, đậu xanh, thịt lợn, lá dong và bánh thường được làm vào các dịp Tết cổ truyền của dân tộc Việt, cũng như ngày giổ tổ Hùng Vương) (mùng 10 tháng 3 âm lịch).</string>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>name</key>
+		<string>Canh Măng</string>
+		<key>photo</key>
+		<string>canhmang</string>
+		<key>info</key>
+		<string>Đời sống xã hội phát triển, ai cũng có nhiều lựa chọn hơn cho bữa ăn của mình nhưng không hiểu sao những món ăn cổ truyền kể trên lại mang một không khí xuân ấm cúng đến vậy. Canh măng miến có lẽ khá điển hình bởi sự ấm nóng, nét tổng hòa bởi hương vị các nguyên liệu, mang lại cho người thưởng thức sự hài lòng, mãn nguyện. </string>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>name</key>
+		<string>Giò Chả</string>
+		<key>photo</key>
+		<string>giocha</string>
+		<key>info</key>
+		<string>Giò lụa, giò chả hay chả lụa (phương ngữ Nam bộ) là tên gọi của món ăn được làm từ hai nguyên liệu cơ bản là thịt nạc thăn lợn giã nhuyễn kết hợp với nước mắm ngon, gói trong lá chuối và luộc chín. Thịnh hành trong ẩm thực Việt Nam từ Bắc xuống Nam như một món ăn vừa phổ thông vừa sang trọng, giò lụa giòn và thơm đậm mùi thịt tươi luộc cộng với mùi đặc trưng của lá chuối tươi được luộc chín.</string>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>name</key>
+		<string>Mứt</string>
+		<key>photo</key>
+		<string>mut</string>
+		<key>info</key>
+		<string>Mứt, mứt trái cây hay mứt quả là một loại thực phẩm ngọt có thể được tìm thấy ở nhiều nước trên thế giới, nó được chế biến các loại trái cây và một số loại củ nấu với đường đến độ khô từ 65-70%</string>
+	</dict>
+	<key>item5</key>
+	<dict>
+		<key>name</key>
+		<string>Nem Chua</string>
+		<key>photo</key>
+		<string>nemchua</string>
+		<key>info</key>
+		<string>Nem chua (phương ngữ Bắc Bộ) hay nem (phương ngữ Trung Bộ và phương ngữ Nam Bộ) là một món ăn sử dụng thịt lợn, lợi dụng men của lá (lá ổi, lá sung v.v.) và thính gạo để ủ chín, có vị chua ngậy. Nổi tiếng ở Việt Nam như một sản vật phổ biến tại nhiều địa phương, tuy không rõ nem chua được người dân vùng nào làm ra đầu tiên.
+
+Nem chua mỗi vùng đều có hương vị riêng: nem chua của Vĩnh Yên, làng Ước Lễ (Hà Đông), làng Vẽ (Hà Nội), Quảng Yên (Quảng Ninh), thành phố Thanh Hóa, Đông Ba (Huế), Ninh Hòa (Khánh Hòa), Thủ Đức (thành phố Hồ Chí Minh), Lai Vung (Đồng Tháp), v.v...</string>
+	</dict>
+	<key>item6</key>
+	<dict>
+		<key>name</key>
+		<string>Sườn Nướng</string>
+		<key>photo</key>
+		<string>suonnuong</string>
+		<key>info</key>
+		<string>Sườn nướng là một món ăn phổ biến được chế biến bằng sườn của động vật (thường là sườn heo hay sườn cừu) với phương pháp nướng. Ở Việt Nam, sườn nướng chủ yếu bằng sườn heo và hay dùng với cơm tấm chan mỡ hành ăn cùng với cà chua và dưa leo.</string>
+	</dict>
+	<key>item7</key>
+	<dict>
+		<key>name</key>
+		<string>Thịt Bò Khô</string>
+		<key>photo</key>
+		<string>thitbokho</string>
+		<key>info</key>
+		<string>Khô bò hay thịt bò khô là thịt bò lọc bỏ mỡ, đem ướp gia vị mặn ngọt rồi sấy khô ở nhiệt độ thấp (khoảng 70 °C). Thịt này đôi khi được đem muối hoặc phơi nắng. Kết quả là một loại thức ăn chơi có thể giữ lâu ngày mà không cần cất tủ đá hay tủ lạnh.Khô bò được chế biến bằng thịt bò tươi, ngon nhất là bắp đùi sau của bò. Các gia vị tẩm ướp có thể gồm quế, cam thảo, đinh hương, tiểu hồi, đại hồi, thảo quả, vỏ quýt, ớt, gừng, hạt tiêu, hành, đường trắng, rượu, tỏi v.v.
+
+Thịt dùng làm khô bò ngày nay được sấy khô bằng lò lửa để tạo hơi nóng và quạt để hút khí ẩm. Hai yếu tố gió và nhiệt độ nóng làm thịt khô lại trước khi vi khuẩn có cơ hội len lỏi vào làm hư thối thịt.
+
+Trước khi sấy, thường thịt phải được lạng bỏ mỡ khỏi phần nạc, vì mỡ khó khô và dễ làm cho sản phẩm chóng hỏng.
+
+Ngoài thịt bò, nhiều loại thịt khác cũng có thể dùng làm thịt khô như thịt nai, cá sấu, đà điểu, và cá.</string>
+	</dict>
+	<key>item8</key>
+	<dict>
+		<key>name</key>
+		<string>Thịt Gà</string>
+		<key>photo</key>
+		<string>thitga</string>
+		<key>info</key>
+		<string></string>
+	</dict>
+	<key>item9</key>
+	<dict>
+		<key>name</key>
+		<string>Ba Chỉ Cuốn Rau Củ</string>
+		<key>photo</key>
+		<string>bachicuonraucu</string>
+		<key>info</key>
+		<string>Cuốn thịt heo rau củ là món ăn không tốn nhiều thời gian để chế biến nhưng lại thơm ngon và không bị ngấy.
+ Gỏi cuốn tôm thịt cho ngày mát trời /  4 món cuốn rau củ cho ngày nghỉ lễ
+Nguyên liệu:
+
+- 500 g thịt ba rọi, 1 trái su su.
+
+- 1 củ cà rốt, 1 quả dưa leo, hành lá.</string>
+	</dict>
+</dict>
+</plist>

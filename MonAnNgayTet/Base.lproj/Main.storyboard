@@ -1,25 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eeP-Qw-aqf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MonAnNgayTet" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="86" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EBq-Df-MJk">
+                                <rect key="frame" x="0.0" y="180" width="320" height="388"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="86" id="3Dd-wd-YB4" customClass="Cell" customModule="MonAnNgayTet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="86"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Dd-wd-YB4" id="BWN-AA-eaK">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="nq0-4n-1b2">
+                                <rect key="frame" x="0.0" y="64" width="320" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="0bb-aL-Ivn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EBq-Df-MJk" secondAttribute="bottom" id="39T-Z6-pjI"/>
+                            <constraint firstAttribute="trailing" secondItem="nq0-4n-1b2" secondAttribute="trailing" id="BFR-ky-toh"/>
+                            <constraint firstItem="EBq-Df-MJk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gkq-Kn-95p"/>
+                            <constraint firstItem="nq0-4n-1b2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="VgO-zJ-Cxd"/>
+                            <constraint firstItem="EBq-Df-MJk" firstAttribute="top" secondItem="nq0-4n-1b2" secondAttribute="bottom" id="aK7-iP-My8"/>
+                            <constraint firstItem="nq0-4n-1b2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eaI-PI-ZMi"/>
+                            <constraint firstAttribute="trailing" secondItem="EBq-Df-MJk" secondAttribute="trailing" id="z6Z-Hn-C0s"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="t54-mz-gxG">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="aTt-Me-R6m"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myTableView" destination="EBq-Df-MJk" id="Cej-cP-W2u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1195" y="71"/>
+        </scene>
+        <!--Show DataVC-->
+        <scene sceneID="PNR-N1-nO4">
+            <objects>
+                <viewController storyboardIdentifier="showData" id="fss-LT-9c8" customClass="ShowDataVC" customModule="MonAnNgayTet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mW4-5Z-RdL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sjy-LN-WeY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hu0-eV-Xtx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="38a-6m-17j">
+                                <rect key="frame" x="0.0" y="198" width="320" height="370"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bachicuonraucu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wtn-8j-OHL">
+                                <rect key="frame" x="0.0" y="28" width="320" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="GXF-C6-qXm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="38a-6m-17j" firstAttribute="leading" secondItem="hu0-eV-Xtx" secondAttribute="leading" id="9GA-vf-Hwo"/>
+                            <constraint firstAttribute="trailing" secondItem="38a-6m-17j" secondAttribute="trailing" id="Ivn-4k-WOU"/>
+                            <constraint firstItem="wtn-8j-OHL" firstAttribute="top" secondItem="mW4-5Z-RdL" secondAttribute="bottom" constant="8" id="R8u-jE-42S"/>
+                            <constraint firstItem="Sjy-LN-WeY" firstAttribute="top" secondItem="38a-6m-17j" secondAttribute="bottom" id="Uws-s7-PeM"/>
+                            <constraint firstItem="wtn-8j-OHL" firstAttribute="leading" secondItem="hu0-eV-Xtx" secondAttribute="leading" id="ZwW-iW-NLu"/>
+                            <constraint firstAttribute="trailing" secondItem="wtn-8j-OHL" secondAttribute="trailing" id="fFt-Fm-keD"/>
+                            <constraint firstItem="38a-6m-17j" firstAttribute="top" secondItem="wtn-8j-OHL" secondAttribute="bottom" id="jZu-Ps-I8I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgViewOfMonAn" destination="wtn-8j-OHL" id="o3d-Je-QDt"/>
+                        <outlet property="txtView_DefineMonAn" destination="38a-6m-17j" id="2qc-qX-EAy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93I-m2-fMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1589" y="76"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0vK-q6-qDt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eeP-Qw-aqf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kUG-gi-oKl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EYj-MX-VJM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ct-gs-0wy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="663" y="71"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="1957" height="1096"/>
+        <image name="bachicuonraucu.jpg" width="500" height="350"/>
+    </resources>
 </document>
